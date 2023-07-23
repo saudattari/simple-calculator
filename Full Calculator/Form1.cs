@@ -86,7 +86,7 @@ namespace Full_Calculator
         private void button4_Click(object sender, EventArgs e)
         {
             //minus button
-            val1 = int.Parse(textBox1.Text);
+            val1 = Convert.ToSingle(textBox1.Text);
             sign = '-';
             textBox1.Text = "";
             textBox1.Focus();
@@ -95,7 +95,7 @@ namespace Full_Calculator
         private void button12_Click(object sender, EventArgs e)
         {
             // multiply button
-            val1 = int.Parse(textBox1.Text);
+            val1 = Convert.ToSingle(textBox1.Text);
             sign = '*';
             textBox1.Text = "";
             textBox1.Focus();
@@ -104,7 +104,7 @@ namespace Full_Calculator
         private void button16_Click(object sender, EventArgs e)
         {
             //divion button
-            val1 = int.Parse(textBox1.Text);
+            val1 = Convert.ToSingle(textBox1.Text);
             sign = '/';
             textBox1.Text = "";
             textBox1.Focus();
