@@ -9,3 +9,14 @@ E:\1Visual Repository\C#\Full Calculator\Full Calculator\obj\Debug\Full Calculat
 E:\1Visual Repository\C#\Full Calculator\Full Calculator\obj\Debug\Full Calculator.csproj.CoreCompileInputs.cache
 E:\1Visual Repository\C#\Full Calculator\Full Calculator\obj\Debug\Full Calculator.exe
 E:\1Visual Repository\C#\Full Calculator\Full Calculator\obj\Debug\Full Calculator.pdb
+E:\1Visual_Repository\C#\Full_Calculator\Full Calculator\bin\Debug\Full Calculator.exe.config
+E:\1Visual_Repository\C#\Full_Calculator\Full Calculator\bin\Debug\Full Calculator.exe
+E:\1Visual_Repository\C#\Full_Calculator\Full Calculator\bin\Debug\Full Calculator.pdb
+E:\1Visual_Repository\C#\Full_Calculator\Full Calculator\obj\Debug\Full Calculator.csproj.AssemblyReference.cache
+E:\1Visual_Repository\C#\Full_Calculator\Full Calculator\obj\Debug\Full Calculator.csproj.SuggestedBindingRedirects.cache
+E:\1Visual_Repository\C#\Full_Calculator\Full Calculator\obj\Debug\Full_Calculator.form1.resources
+E:\1Visual_Repository\C#\Full_Calculator\Full Calculator\obj\Debug\Full_Calculator.Properties.Resources.resources
+E:\1Visual_Repository\C#\Full_Calculator\Full Calculator\obj\Debug\Full Calculator.csproj.GenerateResource.cache
+E:\1Visual_Repository\C#\Full_Calculator\Full Calculator\obj\Debug\Full Calculator.csproj.CoreCompileInputs.cache
+E:\1Visual_Repository\C#\Full_Calculator\Full Calculator\obj\Debug\Full Calculator.exe
+E:\1Visual_Repository\C#\Full_Calculator\Full Calculator\obj\Debug\Full Calculator.pdb

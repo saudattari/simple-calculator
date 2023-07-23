@@ -17,6 +17,7 @@ namespace Full_Calculator
         public form1()
         {
             InitializeComponent();
+            textBox1.Focus();
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -88,6 +89,7 @@ namespace Full_Calculator
             val1 = int.Parse(textBox1.Text);
             sign = '-';
             textBox1.Text = "";
+            textBox1.Focus();
         }
 
         private void button12_Click(object sender, EventArgs e)
@@ -96,6 +98,7 @@ namespace Full_Calculator
             val1 = int.Parse(textBox1.Text);
             sign = '*';
             textBox1.Text = "";
+            textBox1.Focus();
         }
 
         private void button16_Click(object sender, EventArgs e)
@@ -104,6 +107,7 @@ namespace Full_Calculator
             val1 = int.Parse(textBox1.Text);
             sign = '/';
             textBox1.Text = "";
+            textBox1.Focus();
         }
 
         private void button15_Click(object sender, EventArgs e)
@@ -112,25 +116,25 @@ namespace Full_Calculator
             float val3 = 0;
             if (sign == '-')
             {
-              val2 = int.Parse(textBox1.Text);
+                val2 = Convert.ToSingle(textBox1.Text);
                 val3 = val1 - val2;
                 textBox1.Text = val3.ToString();
             }
             else if(sign == '+')
             {
-                val2 = int.Parse(textBox1.Text);
+                val2 = Convert.ToSingle(textBox1.Text);
                 val3 = val1 + val2;
                 textBox1.Text = val3.ToString();
             }
             else if(sign == '*')
             {
-                val2 = int.Parse(textBox1.Text);
+                val2 = Convert.ToSingle(textBox1.Text);
                 val3 = val1 * val2;
                 textBox1.Text = val3.ToString();
             }
             else if(sign == '/')
             {
-                val2 = int.Parse(textBox1.Text);
+                val2 = Convert.ToSingle(textBox1.Text);
                 val3 = val1 / val2;
                 textBox1.Text = val3.ToString();
             }
@@ -143,7 +147,7 @@ namespace Full_Calculator
         private void button8_Click(object sender, EventArgs e)
         {
             //plus button
-            val1 = int.Parse(textBox1.Text);
+            val1 = Convert.ToSingle(textBox1.Text);
             sign = '+';
             textBox1.Text = "";
         }
